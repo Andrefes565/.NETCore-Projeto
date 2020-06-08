@@ -24,3 +24,7 @@ C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\site01.csproj.
 C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\site01.csproj.CoreCompileInputs.cache
 C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\Razor\Views\Contato\Index.cshtml.g.cs
 C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\site01.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavra\Atualizar.cshtml.g.cs
+C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavra\Cadastrar.cshtml.g.cs
+C:\Users\andre\source\repos\site01\site01\obj\Debug\netcoreapp2.1\Razor\Views\Palavra\Index.cshtml.g.cs

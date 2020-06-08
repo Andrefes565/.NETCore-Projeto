@@ -23,7 +23,7 @@ namespace site01.Models
 
         [Required(ErrorMessage = "O campo 'Menssagem' é obrigatório")]
         [MaxLength(70, ErrorMessage = "O campo 'Menssagem' deve conter no máximo 70 caracteres")]
-        public string Menssagem { get; set; }
+        public string Mensagem { get; set; }
 
     }
 }
