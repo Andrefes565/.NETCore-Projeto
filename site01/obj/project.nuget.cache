@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MsxypCsxoSH3HSA63rIEe2sTN9SNKsguMhh28T9S0M+zhXTJ6cYf2zRN36cajHU6qSrZO9XjWeEtrW45m0IDrg==",
+  "dgSpecHash": "yV6NxgLbVTETke6MMIVwJa+5Ptl9snGPe7uRM4nAxfxU8uCfupaV42p3m0vVwUSAoAkFblmFL8zGWALKF2B+lg==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\source\\repos\\site01\\site01\\site01.csproj",
   "expectedPackageFiles": [
@@ -241,7 +241,7 @@
     "C:\\Users\\andre\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.linq.expressions\\4.3.0\\system.linq.expressions.4.3.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.linq.parallel\\4.3.0\\system.linq.parallel.4.3.0.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\system.linq.queryable\\4.0.1\\system.linq.queryable.4.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.linq.queryable\\4.3.0\\system.linq.queryable.4.3.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.net.http\\4.3.0\\system.net.http.4.3.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
@@ -298,7 +298,9 @@
     "C:\\Users\\andre\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\x.pagedlist\\7.5.0\\x.pagedlist.7.5.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\x.pagedlist.mvc.core\\7.5.0\\x.pagedlist.mvc.core.7.5.0.nupkg.sha512"
   ],
   "logs": []
 }

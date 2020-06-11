@@ -1,28 +1,39 @@
 ﻿@model site01.Models.Palavra
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Palavra - Cadastrar";
+}
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Contato</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
 
-<body>
-    <div class="container">
-        <form method="post">
-            <input type="hidden" name="id" value="@Model.Id"/>
-            <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" value="@Model.Nome" class="form-control" id="nome" placeholder="Digite seu nome">
-                @Html.ValidationMessage("nome")
-            </div>
-            <div class="form-group">
-                <label for="nivel">Nível</label>
-                <input type="text" name="nivel" value="@Model.Nivel" class="form-control" id="nivel" placeholder="Digite o nível">
-                @Html.ValidationMessage("nivel")
-            </div>
-            <button type="submit" class="btn btn-primary">Salvar</button>
-        </form>
+<form method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" value="@Model.Nome" class="form-control" id="nome" placeholder="Digite seu nome">
+        @Html.ValidationMessage("nome")
     </div>
-</body>
-</html>
+    <div class="form-group">
+        <label for="nivel">Nível</label>
+        <select name="nivel" class="form-control">
+            @foreach (var nivel in ViewBag.Nivel)
+            {
+                @if (nivel.Id == Model.Nivel)
+                {
+                    <option value="@nivel.Id" selected>@nivel.Nome</option>
+                }
+                else
+                {
+                    <option value="@nivel.Id">@nivel.Nome</option>
+                }
+
+            }
+        </select>
+        <!--<input type="text" name="nivel" value="@Model.Nivel" class="form-control" id="nivel" placeholder="Digite o nível"> -->
+        @Html.ValidationMessage("nivel")
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+
+

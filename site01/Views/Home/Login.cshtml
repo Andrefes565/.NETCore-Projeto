@@ -1,30 +1,31 @@
-﻿
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+    ViewBag.Title = "Login";
+}
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Login</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</head>
-
-<body>
-    <div class="container">
-        <form method="post" action="/Home/Login">
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="text" name="email" value="" class="form-control" id="nome" placeholder="Digite seu email">
-                @Html.ValidationMessage("email")
-            </div>
-            <div class="form-group">
-                <label for="nome">Senha</label>
-                <input type="text" name="senha" value="" class="form-control" id="senha" placeholder="Digite sua senha">
-                @Html.ValidationMessage("senha")
-            </div>
-
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-        @ViewBag.Mensagem
-        
+@if (TempData["MensagemErro"] != null)
+{
+    <div class="alert alert-error" role="alert">
+        @TempData["MensagemErro"]
     </div>
-</body>
-</html>
+}
+
+<form method="post" action="/Home/Login">
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" name="email" value="" class="form-control" id="nome" placeholder="Digite seu email">
+        @Html.ValidationMessage("email")
+    </div>
+    <div class="form-group">
+        <label for="nome">Senha</label>
+        <input type="password" name="senha" value="" class="form-control" id="senha" placeholder="Digite sua senha">
+        @Html.ValidationMessage("senha")
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+@ViewBag.Mensagem
+
+
