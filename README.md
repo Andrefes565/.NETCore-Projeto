@@ -6,10 +6,10 @@
 ![Login](https://github.com/Andrefes565/.NETMvc-CadastroDeAunos/blob/master/Lista%20de%20Alunos.png)
 
 # Cadastro de Palavras
-![Login](https://github.com/Andrefes565/.NETCore-Projeto/blob/master/Cadastro%20de%20Palavras.png)
+![Cadastro de Palavras](https://github.com/Andrefes565/.NETCore-Projeto/blob/master/Cadastro%20de%20Palavras.png)
 
 # Lista de Palavras
-![Login](https://github.com/Andrefes565/.NETCore-Projeto/blob/master/Lista%20de%20Palavras.png)
+![Lista de Palavras](https://github.com/Andrefes565/.NETCore-Projeto/blob/master/Lista%20de%20Palavras.png)
 
 
 
